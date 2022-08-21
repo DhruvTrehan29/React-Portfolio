@@ -1,0 +1,78 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+                        /*###################################### CTA ###################################*/
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+                       /*###################################### Socials ###################################*/
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+                        /*###################################### Socials After ###################################*/
+.header__socials::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background-color:var(--color-primary);
+}
+                        /*###################################### Me Pic ###################################*/
+.me {
+background: linear-gradient(var(--color-primary),transparent);
+width: 17rem;
+height: 30em;
+position: absolute;
+left: calc(54% - 11rem);
+margin-top: 4rem;
+border-radius: 12rem 12rem 0 0;
+overflow: hidden;
+padding: 5rem 1.5rem 1.5rem 1.5rem ;
+}
+.scroll__down{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -2.3rem;
+    bottom: 5rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+/* MEDIA QUERIES [MEDIUM DEVICES] */
+
+@media screen and (max-width:1024px) {
+     header{
+        height: 68vh;
+     }
+}
+
+/* MEDIA QUERIES [SMALL DEVICES] */
+
+@media screen and (max-width:600px) {
+     header{
+        height: 100vh;
+     }
+     .header__socials,.scroll__down{
+        display: none;
+     }
+     .me{
+        margin-left: 1.6rem;
+     }
+}
+
