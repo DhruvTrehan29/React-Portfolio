@@ -29,7 +29,7 @@ const about = () => {
             <small>Participated in 2 Hackathon</small>
           </article>
          </div>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores asperiores fuga quibusdam sed totam illum perspiciatis deserunt beatae, esse soluta odio ipsum ipsam, reprehenderit iste voluptates at necessitatibus cumque sit!</p>
+         <p>I am currently pursuing Btech in Information Technology(5th Semester) from Dr. Akhilesh Das Gupta Institute Of  technology and Management. I am currently seeking a platform where I could utilize my technical skills and knowledge for the growth and productivity of the organization and also gain relevant experience out of it </p>
          <a href="#Contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>

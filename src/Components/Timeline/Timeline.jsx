@@ -2,7 +2,8 @@ import React from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement
-} from "react-vertical-timeline-component";
+} 
+from "react-vertical-timeline-component";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import StarIcon from "@material-ui/icons/Star";
@@ -11,7 +12,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 export default function App() {
   return (
-    <section className="App">
+    <section id="App">
       <h5>Educational Qualification And Achievments</h5>
       <h2>Timeline</h2>
       <VerticalTimeline>

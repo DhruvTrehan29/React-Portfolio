@@ -1,3 +1,4 @@
+
 .container__about{
     display: grid;
     grid-template-columns: 35% 50%;
@@ -31,12 +32,12 @@
     text-align: center;
     border-radius: 1rem;
     padding: 2rem; 
-    transition: var(--transition);  
+    transition: var(--transition); 
 }
 .about__card:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
-    cursor: pointer;
+    cursor: default;
 }
 .about__icons{
     font-size: 1.4rem;
