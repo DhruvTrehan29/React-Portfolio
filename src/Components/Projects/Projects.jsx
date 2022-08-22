@@ -38,7 +38,7 @@ const Projects = () => {
                 <h3>The Code_Monks Website</h3>
                 <div className="portfolio__item-cta">
               <a href="https://github.com/DhruvTrehan29/Code-Monks-Project" className='btn' target='_blank'>Github</a>
-                <a href="https://codemonks.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href="https://code-monks.vercel.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
               </div>
           </article>
           <article className="portfolio__item">
