@@ -1,9 +1,13 @@
 import React from 'react'
 import './skills.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 const Skills = () => {
   return (
-    <section id='Skills'>
+    <section id='Skills' data-aos="fade-left" data-aos-duration="1000">
       <h5>What Skills I Have</h5>
       <h2>My Skills</h2>
       <div className="container container__skills" >

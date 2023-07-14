@@ -1,4 +1,5 @@
 import React from "react";
+import './timeline.css'
 import {
   VerticalTimeline,
   VerticalTimelineElement
@@ -78,10 +79,31 @@ export default function App() {
           <h3 className="vertical-timeline-element-title">
           Live The Code Hackethon
           </h3>
-          <p>
+          <p className="paraAlignment">
 I participated in "Live The Code" Hackethon where I worked in a team and made a project using Web Development tools.Our team was among the top 5 teams in this hackethon.
 </p>
         </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          contentStyle={{ background: "#2c2c6c", color: " #4db5ff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="August 2022-september 2022"
+          iconStyle={{ background: "#4db5ff", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+          IBM Training on Artificial Intellegence And Machine Learning.
+          </h3>
+          <p className="paraAlignment">
+          •	Studied and developed familiarity with range of machine learning algorithms, including linear regression, Decision Tree and logistic regression.<br/><br/>
+          •	Explored diverse applications of artificial intelligence, including computer vision, Natural Language P.rocessing (NLP) and expert systems.<br/><br/>
+          •	Developed and successfully completed a project on Speech To Text recognition as a part of the training program
+
+         </p>
+        </VerticalTimelineElement>
+
+
         <VerticalTimelineElement
           iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
           icon={<StarIcon />}

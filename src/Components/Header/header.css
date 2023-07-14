@@ -24,7 +24,23 @@ header{
     font-size:19px;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    /* bottom: 3rem; */
+    margin-top: 5rem;
+}
+
+.socialEdit{
+    background-color:var(--color-bg-variant);
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    border-radius: 2rem;
+}
+.socialEdit:hover,
+.socialEdit:focus{
+    box-shadow: 0 0.5em 0.5em -0.2em var(--color-primary);
+    transform: translateY(-0.25em);
 }
                         /*###################################### Socials After ###################################*/
 .header__socials::after{
