@@ -8,6 +8,7 @@ from "react-vertical-timeline-component";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import StarIcon from "@material-ui/icons/Star";
+import { FaBriefcase } from "react-icons/fa";
 import "react-vertical-timeline-component/style.min.css";
 
 
@@ -103,6 +104,51 @@ I participated in "Live The Code" Hackethon where I worked in a team and made a 
          </p>
         </VerticalTimelineElement>
 
+<VerticalTimelineElement
+  className="vertical-timeline-element--work"
+  contentStyle={{ background: "#2c2c6c", color: "#4db5ff" }}
+  contentArrowStyle={{
+    borderRight: "7px solid rgb(33, 150, 243)",
+  }}
+  date="2024 - Present"
+  iconStyle={{ background: "#4db5ff", color: "#fff" }}
+  icon={<FaBriefcase/>}
+>
+  <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+  <h4 className="vertical-timeline-element-subtitle">Accenture</h4>
+
+  <p>
+    Working as a Java Backend Developer on the Google PlayHub project.
+  </p>
+<br />
+  <ul>
+    <li>
+      • Developed and maintained backend services using Java and Spring Boot,
+      focusing on scalable and reliable application development.
+    </li>
+    <br />
+    <li>
+      •	Worked with Google Cloud technologies including Spanner and integrated
+      backend services with AppSheet.
+    </li>
+    <br />
+    <li>
+      •	Implemented and optimized database operations, caching mechanisms, and
+      data-access layers to improve application performance.
+    </li>
+    <br />
+    <li>
+      •	Designed and enhanced APIs and backend components while troubleshooting
+      production issues and resolving critical defects.
+    </li>
+    <br />
+    <li>
+      •	Worked with unit testing and Mockito to ensure reliability and maintain
+      code quality across backend components.
+    </li>
+    <br />
+  </ul>
+</VerticalTimelineElement>
 
         <VerticalTimelineElement
           iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
