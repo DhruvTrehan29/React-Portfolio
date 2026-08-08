@@ -1,16 +1,14 @@
 import React from 'react'
-import { BsLinkedin } from 'react-icons/bs'
-import { FaGithub } from 'react-icons/fa'
-import { SiGeeksforgeeks } from 'react-icons/si'
-import { SiLeetcode } from 'react-icons/si'
+import {BsLinkedin} from 'react-icons/bs'
+import {FaGithub} from 'react-icons/fa'
+import {SiGeeksforgeeks} from 'react-icons/si'
+import{SiLeetcode} from 'react-icons/si'
 import './footer.css'
-
 const Footer = () => {
   return (
     <footer>
-      <a href="#Home" className="footer__logo">Dhruv Trehan</a>
-
-      <ul className="permalinks">
+      <a href="#Home" className='footer__logo'>Dhruv Trehan</a>
+      <ul className='permalinks'>
         <li><a href="#Home">Home</a></li>
         <li><a href="#About">About</a></li>
         <li><a href="#Skills">Skills</a></li>
@@ -18,42 +16,14 @@ const Footer = () => {
         <li><a href="#App">Timeline</a></li>
         <li><a href="#Contact">Contact</a></li>
       </ul>
-
       <div className="footer__socials">
-        <a
-          href="https://linkedin.com"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <BsLinkedin />
-        </a>
-
-        <a
-          href="https://github.com"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaGithub />
-        </a>
-
-        <a
-          href="https://auth.geeksforgeeks.org/user/dhruvtrehan29/practice/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <SiGeeksforgeeks />
-        </a>
-
-        <a
-          href="https://leetcode.com/DhruvTrehan/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <SiLeetcode />
-        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noreferrer"><BsLinkedin/></a>
+        <a href="https://github.com" target="_blank" rel="noreferrer"><FaGithub/></a>
+        <a href="https://auth.geeksforgeeks.org/user/dhruvtrehan29/practice/" target="_blank" rel="noreferrer"><SiGeeksforgeeks/></a>
+        <a href="https://leetcode.com/DhruvTrehan/" target="_blank" rel="noreferrer"><SiLeetcode/></a>
       </div>
     </footer>
   )
 }
 
-export default Footer;
+export default Footer
